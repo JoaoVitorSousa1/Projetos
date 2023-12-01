@@ -8,15 +8,17 @@
 </head>
 <body>
   <h1 class="title-home">Login</h1>
-  <input type="text" placeholder="Usuário/Email">
-  <br><input type="password" placeholder="Senha">
-  <br><button>Entrar</button>
+  <form>
+    <input type="text" name="user" id="user" placeholder="Usuário/Email" required>
+    <br><input type="password" name="password" id="password" placeholder="Senha" required>
+    <br><input type="submit" id="submit" onclick="validation()" value="Login">
+  </form>
   <div class="create">
     <br><a href="Create.html" id="create">Não tenho conta</a>
   </div>
   <div class="copyright-home">
     <br><a href="https://github.com/JhonDev90">© João Vitor 2023</a>
   </div>
-    <script src="js/script.js"/>
+  <script src="js/script-home.js"/>
 </body>
 </html>

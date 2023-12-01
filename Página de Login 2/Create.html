@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Página de Acesso</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página de Acesso</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body class="bdy">
-	<h1 class="title-create">Cadastro</h1>
-	<br><input type="text" placeholder="Primeiro nome">
-	<br><input type="text" placeholder="Sobrenome">
-	<br><select class="genero">
-		  <option disable selected>- Qual é o seu gênero?:</option>
-		  <option>Masculino</option>
-		  <option>Feminina</option>
-		  <option>Prefiro não dizer</option>
-	    </select>
-	<br><input type="text" placeholder="Usuário">
-	<br><input type="email" placeholder="Email">
-	<br><input type="password" placeholder="Senha">
-	<br><input type="password" placeholder="Confirme a sua senha">
-	<br><button>Criar</button>
-	<a href="Home.html" class="btn"><button>Voltar</button></a>
-	<div class="copyright-create">
-		<br><a href="https://github.com/JhonDev90">© João Vitor 2023</a>
-	</div>
-      
+  <form>
+    <h1 class="title-create">Cadastro</h1>
+    <br><input type="text" name="name" id="name" placeholder="Primeiro nome" required>
+    <br><input type="text" name="s_name" id="s_name" placeholder="Sobrenome" required>
+    <br><select name="gender" id="gender" class="gender" required>
+      <option value="" disabled selected hidden>- Qual é o seu gênero?:</option>
+      <option value="masculino">Masculino</option>
+      <option value="feminina">Feminina</option>
+      <option value="undefi">Prefiro não dizer</option>
+    </select>
+    <br><input type="text" name="user" id="user" placeholder="Usuário" required>
+    <br><input type="email" name="email" id="email" placeholder="Email" required>
+    <br><input type="password" name="password" id="password" placeholder="Senha" required>
+    <br><input type="password" name="password_conf" id="password_conf" placeholder="Confirme a sua senha" required>
+    <br><input type="submit" name="submit"  id="submit" onclick="validation()" value="Criar">
+  </form>
+  <a href="Home.html" class="btn"><button>Voltar</button></a>
+  <div class="copyright-create">
+    <br><a href="https://github.com/JhonDev90">© João Vitor 2023</a>
+  </div>
+  <script src="js/script-create.js"/>
 </body>
-
 </html>
