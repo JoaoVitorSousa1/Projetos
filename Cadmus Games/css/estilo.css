@@ -1,0 +1,544 @@
+* {
+  text-shadow: 0px 1px 4px #FF1ACB;
+  text-align: center;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+#hov, #hov img {
+  border-radius: 20px;
+}
+
+#hov:hover {
+  background-color:#1ea9cb;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  background-color: #131212;
+}
+
+.user-mobile {
+  display: none;
+}
+
+.user {
+  position: absolute;
+  right: 3%;
+  bottom: 33%;
+  background-color: #432d8d;
+  height: 66%;
+  width: 19%;
+  border-radius: 58px;
+  box-shadow: 0px 1px 4px #FF1ACB;
+}
+
+.user img {
+  position: relative;
+  height: 8rem;
+  margin-top: 10%;
+  border-radius: 100px;
+  color: white;
+  box-shadow: 0px 1px 4px #FF1ACB;
+}
+
+.user h3 {
+  color: white;
+  margin-top: 2%;
+}
+
+.btn {
+  position: absolute;
+  right: 10%;
+  bottom: 36%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn a {
+  color: white;
+  font-weight: bold;
+}
+
+.btn img {
+  position: absolute;
+  height: 8%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn button {
+  height: 2.4rem;
+  width: 150%;
+  margin-top: 5%;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #1ea9cb;
+  box-shadow: 0px 1px 4px #FF1ACB;
+}
+
+.conf {
+  position: absolute;
+  right: 32%;
+  top: 28%;
+  height: 4%;
+  width: 6%;
+  color: black;
+  border: 1px solid #FF1ACB;
+  background-color: white;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.conf i {
+  position: relative;
+  top: 3%;
+  left: 7%;
+}
+
+.conf:hover {
+  background-color: #1DC0E7;
+}
+
+#sair {
+  height: 30px;
+  width: 70%;
+  position: relative;
+  left: 35%;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  text-shadow: 0px 1px 4px #FF1ACB;
+}
+
+.logo img {
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  border-radius: 20px;
+  border: 2px solid #FF1ACB;
+}
+
+.pesquisar {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  color: white;
+}
+
+.pesquisar i {
+  position: relative;
+  left: 32%;
+  top: 8px;
+  cursor:pointer;
+}
+
+.pesquisar input {
+  height: 30px;
+  width: 80%;
+  max-width: 500px;
+  font-size: 20px;
+  margin-bottom: 2%;
+  border-radius: 20px;
+  background-color: #432d8d;
+  box-shadow: 0px 2px 4px #FF1ACB;
+}
+
+input::placeholder,
+input[type="text"] {
+  font-size: 15px;
+  color: white;
+  text-shadow: 0px 2px 4px #FF1ACB;
+}
+
+.dropdown button {
+  color: white;
+  margin-top: 2%;
+  margin-right: 1%;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #432d8d;
+  box-shadow: 0px 2px 4px #FF1ACB;
+  cursor: pointer;
+}
+
+.dropdown button:hover {
+  background-color: #00A4bd;
+}
+
+.dropdown p {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  top:1%;
+}
+
+.dropdown-content {
+  display:none;
+  position: relative;
+  width: 9%;
+  margin-left: 40%;
+  margin-top: 1%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  background-color: #4d3c84;
+  font-size: 15px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  width: 200%;
+  padding: 5%;
+  border-radius: 6px;
+  margin-bottom: 7%;
+  box-shadow: 0px 2px 4px #FF1ACB;
+}
+
+.dropdown-content a:hover {
+  color: white;
+  background-color: #00A4bd;
+  font-size: 120%;
+}
+
+.dropdown img {
+  height: 30px;
+  width: 25%;
+  float: left;
+  margin: 5%;
+}
+
+.categoria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+  font-size: 2rem;
+}
+
+.categoria a {
+  background-color: white;
+  display: inline-block;
+  margin-right: 5%;
+  color: inherit;
+  text-decoration: none;
+  padding: 2%;
+  width: 10%;
+  height: 5rem;
+  border-radius: 2rem;
+  margin-bottom: 7%;
+}
+
+p {
+  position: relative;
+  bottom: 30%;
+}
+
+#pc,
+#sony,
+#microsoft,
+#nintendo {
+  box-shadow: 0px 2px 4px #FF1ACB;
+}
+
+#pc {
+  background-color: white;
+}
+
+#sony {
+  background-color: #00A4bd;
+}
+
+#microsoft {
+  background-color: green;
+}
+
+#nintendo {
+  color: red;
+  background-color: white;
+}
+
+.lns {
+  background-color: #432d8d;
+  margin-right: 150px;
+  margin-left: 12%;
+  margin-bottom: 7%;
+  box-shadow: 0px 4px 4px #FF1ACB;
+}
+
+.lns img {
+  height: 450px;
+  margin-top: 1%;
+  box-shadow: 0px 4px 4px #FF1ACB;
+}
+
+.lns a {
+  text-decoration: none;
+}
+
+.lns p {
+  position: relative;
+  font-size: 29px;
+  color: white;
+  bottom: 30px;
+}
+
+.desconto {
+  background-color: #432d8d;
+  position: relative;
+  height: 600px;
+  box-shadow: 0px 4px 4px #FF1ACB;
+  width: 50%;
+}
+
+.desconto img {
+  position: relative;
+  height: 400px;
+  margin-top: 2%;
+  width: 95%;
+  box-shadow: 0px 4px 4px #FF1ACB;
+}
+
+.desconto h2,
+h4 {
+  color: white;
+  margin: 2%;
+}
+
+.desconto h1 {
+  color: yellowgreen;
+  margin: 2%;
+}
+
+.catalogo {
+  background-color: #432d8d;
+  position: relative;
+  margin-bottom: 6%;
+  margin-top: -40%;
+  left: 51%;
+  top: 20%;
+  width: 49%;
+  height: 600px;
+  box-shadow: 0px 4px 4px #FF1ACB;
+}
+
+.catalogo a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.catalogo img {
+  height: 400px;
+  margin-top: 2%;
+  width: 95%;
+  box-shadow: 0px 4px 4px #FF1ACB;
+}
+
+.arkham {
+  width: 80%;
+  margin-left: 9%;
+  background-color: #432d8d;
+  box-shadow: 0px 4px 4px #FF1ACB;
+}
+
+.arkham img {
+  width: 98%;
+  margin-top: 1%;
+  box-shadow: 0px 4px 4px #FF1ACB;
+}
+
+.arkham a {
+  text-decoration: none;
+  color: white;
+}
+
+.arkham h1 {
+  position: relative;
+  margin-top: 4%;
+  bottom: 15px;
+}
+
+.text {
+  color: white;
+  position: relative;
+  top: 15%;
+  line-height: 50px;
+}
+
+@media screen and (max-width: 760px) {
+   
+  .logo img {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 1rem;
+    margin-left: 35%;
+  }
+  .pesquisar input {
+    height: 1.2rem;
+    width: 75%;
+  }
+
+  .pesquisar i {
+    position:absolute;
+    left: 77%;
+    top:21.1%;
+  }
+  
+  .dropdown button {
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    height: 2rem;
+  }
+ 
+  .dropdown p {
+    position: absolute;
+    left:50%;
+    top:27.3%;
+  }
+
+  .dropdown img {
+    height: 90%;
+    bottom: 20%;
+  }
+
+  .dropdown-content {
+    display: none;
+    width: 20%;
+    margin-left: 30%;
+  }
+
+  .dropdown-content a{
+    margin-top: 7%;
+  }
+  
+  .categ {
+    position: relative;
+    bottom:10%;
+  }
+
+  .categoria a{
+    position: relative;
+    left: 3%;
+    font-size: 150%;
+    border-radius: 30%;
+    height: 2%;
+    width: 30%;
+  }
+
+  .categoria p {
+    display: none;
+  }
+
+  .user-mobile {
+    width: 21%;
+    display: block;
+    position: absolute;
+    left: 76%;
+    top: 0%;
+    background-color: #432d8d;
+    box-shadow: 0px 1px 4px #FF1ACB;
+    font-size: 70%;
+    border-radius: 10%;
+  }
+
+  .user-mobile a {
+    position: relative;
+    color: white;
+  }
+
+  .user-mobile img {
+    height: 4rem;
+    margin-top: 6%;
+    border-radius: 50%;
+  }
+
+  .conf {
+    top:55%;
+    left: 60%;
+    background-color:white;
+    height: 1rem;
+    width: 25%;
+  }
+
+  .conf i {
+    color: black;
+    top: 10%;
+    left: 0%;
+  }
+
+  .user, .btn {
+    display: none;
+  }
+
+
+  .lns  {
+    width: 97%;
+    margin-left: 0.2%;
+  }
+
+  .lns img {
+    width: 95%;
+    height: 10rem;
+    margin-top: 2%;
+  }
+  
+  .desconto {
+    width: 97%;
+    height: 40rem;
+    margin-left: 0.2%;
+    margin-bottom: -4%;
+  }
+
+  .desconto img {
+    width: 95%;
+    margin-top: 2%;
+  }
+
+  .catalogo {
+    margin-top: 10%;
+    margin-left: -51%;
+    width: 97%;
+    height: 34rem;
+  }
+
+  .catalogo h1 {
+    margin-top:3%;
+    margin-left: 6%;
+    width: 90%;
+  }
+
+  .catalogo img {
+    width: 95%;
+    margin-top: 2%;
+  }
+  .arkham {
+    margin-left: 0.2%;
+    font-size: 70%;
+    width: 97%;
+  }
+
+  .arkham img {
+    margin-top:2%;
+    width: 95%;
+    margin-bottom: 5%;
+  }
+
+  .text {
+    font-size: 1rem;
+    line-height: 2rem;
+    top:276%;
+  }
+}
