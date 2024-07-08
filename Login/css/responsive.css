@@ -1,0 +1,11 @@
+@media screen and (max-width: 1377px) {
+  body {
+    background-color: green;
+  }
+
+  .svg {
+    width: 2px;
+    gap: 20;
+  }
+
+}
