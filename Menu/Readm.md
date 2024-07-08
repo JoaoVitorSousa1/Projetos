@@ -6,7 +6,7 @@ Menu de navegação na qual foi criada no intuito de colocar em práticas mínim
 - <a href="#estrutura">Estrutura</a>
 - <a href="#ilustracao">Ilustração</a>
 - <a href="#rodar">Como Rodar</a>
-- <a href="###tecnologias">Técnologias Utilizadas</a>
+- <a href="#tecnologias">Técnologias Utilizadas</a>
 ##
 
 ### Estrutura ⚙️
@@ -19,8 +19,8 @@ Menu de navegação na qual foi criada no intuito de colocar em práticas mínim
 ### Ilustração 🖼️
 <img src="./assets/Imagem do projeto (focus).png">
 
-<br>função do cursor com "focus" ativada:
-<img src="./assets/Imagem do projeto (focus).png">
+Função do cursor com "focus" ativada:
+<br><img src="./assets/Imagem do projeto (focus).png">
 ##
 
 ### Como Rodar
