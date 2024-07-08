@@ -6,7 +6,7 @@ Menu de navegação na qual foi criada no intuito de colocar em práticas mínim
 - <a href="#estrutura">Estrutura</a>
 - <a href="#ilustracao">Ilustração</a>
 - <a href="#rodar">Como Rodar</a>
-- <a href="#tecnologias">Técnologias Utilizadas</a>
+- <a href="###tecnologias">Técnologias Utilizadas</a>
 ##
 
 ### Estrutura ⚙️
