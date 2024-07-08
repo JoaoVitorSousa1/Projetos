@@ -3,10 +3,10 @@
 Menu de navegação na qual foi criada no intuito de colocar em práticas mínimas aprendizado em responsividade.
 
 # Índice
-- [Estrutura](#estrutura)
-- [Ilustração](#ilustracao)
-- [Como Rodar](#rodar)
-- [Técnologias Utilizadas](#tecnologias)
+- <a href="#estrutura">Estrutura</a>
+- <a href="#ilustracao">Ilustração</a>
+- <a href="#rodar">Como Rodar</a>
+- <a href="#tecnologias">Técnologias Utilizadas</a>
 ##
 
 ### Estrutura ⚙️
@@ -17,12 +17,13 @@ Menu de navegação na qual foi criada no intuito de colocar em práticas mínim
 ##
 
 ### Ilustração 🖼️
-<img src="./assets/imagem do projeto.png.png">
+<img src="./assets/Imagem do projeto (focus).png">
 
 <br>função do cursor com "focus" ativada:
 <img src="./assets/Imagem do projeto (focus).png">
 ##
 
+### Como Rodar
 Há duas formas de rodar o projeto, a primeira é a forma mais simples que é acessando o site de dominio Netflify, e a outra é pelos comando Git:
 
 -  Netlify: Clique aqui no link do [Projeto](https://funny-meringue-e9612b.netlify.app/)
