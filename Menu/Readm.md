@@ -17,7 +17,7 @@ Menu de navegação na qual foi criada no intuito de colocar em práticas mínim
 ##
 
 ### Ilustração 🖼️
-<img src="./assets/Imagem do projeto .png">
+<img src="./assets/imagem do projeto-.png">
 
 Função do cursor com "focus" ativada:
 <br><img src="./assets/Imagem do projeto (focus).png">
