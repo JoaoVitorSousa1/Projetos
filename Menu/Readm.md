@@ -19,7 +19,7 @@ de navegação na qual foi criada no intuito de colocar em práticas mínimas ap
 ### Ilustração 🖼️ <a id="ilustracao"></a>
 <img src="./assets/imagem do projeto.png" alt="Imagem do menu sem o efeito focus ou houver, apenas puro">
 
-<br>Função do cursor com "focus" ativada:
+Função do cursor com "focus" ativada:
 <br><img src="./assets/imagem do projeto (focus).png" alt="Imagem do menu com o botão clicado, sob efeito focus">
 ##
 
