@@ -14,7 +14,18 @@ a {
 }
 
 a:hover {
-  color: #001839;
+  background-color: #ee9b00;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.1s;
+  color: black;
+}
+
+a:focus {
+  background-color: #ee9b00;
+  color: black;
+  border-radius: 3px;
 }
 
 .navbar {
@@ -25,7 +36,7 @@ a:hover {
   max-height: 30px;
   font-size: 25px;
   padding: 10px;
-  border: 5px double #c58000;
+  border: 5px double #ffc300;
 }
 
 #nav-list {
@@ -34,14 +45,6 @@ a:hover {
   gap: 20px;
   justify-content: center;
 }
-
-.nav-item:hover {
-  background-color: #ee9b00;
-  border-radius: 3px;
-  transition: 1s;
-}
-
-
 
 @media (max-width: 767px) {
   .navbar {
